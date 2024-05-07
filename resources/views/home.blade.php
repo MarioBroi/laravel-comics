@@ -2,6 +2,140 @@
 
 @section('content')
 
-<h1>Home page</h1>
+<jumbotron class="jumbotron">
+    <div class="container">
+        JUMBO IMG
+    </div>
+    <!-- .container -->
+</jumbotron>
+<!-- /.jumbotron -->
+
+<section class="comics-display">
+    <div class="container d-flex justify-content-center flex-column">
+        CURRENT SERIES
+        <div class="row row row-cols-3 row-cols-md-6 g-4"> <!-- DA RENDERE DINAMICO -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+            <div class="col">
+                <div class="card p-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+
+        </div>
+        <!-- /.row -->
+
+        <button type="button" class="btn btn-primary m-auto">
+            LOAD MORE
+        </button>
+
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.comics-display -->
+
+<section class="shop">
+    <div class="container">
+        <ul class="list-unstyled d-flex justify-content-center">
+            <li>DIGITAL COMICS</li>
+            <li>DC MERCHANDISE</li>
+            <li>SUBSCRIPTION</li>
+            <li>COMIC SHOP LOCATOR</li>
+            <li>DC POWER VISA</li>
+        </ul>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.shop -->
+
 
 @endsection
