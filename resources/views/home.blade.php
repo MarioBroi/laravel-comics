@@ -18,103 +18,22 @@
 
         <div class="row row row-cols-3 row-cols-md-6 g-4"> <!-- DA RENDERE DINAMICO -->
 
-
+            @foreach ($comics as $comic)
 
             <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
+                <div class="card border-0">
+                    <img src="{{$comic['thumb']}}" alt="" class="card-img-top">
+                    <div class="cardbody bg-dark">
+                        <h5 class="p-1 text-light">
+                            {{$comic['title']}}
+                        </h5>
+                    </div>
                 </div>
                 <!-- /.card -->
             </div>
             <!-- /.col -->
 
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
-
-            <div class="col">
-                <div class="card p-1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col -->
+            @endforeach
 
         </div>
         <!-- /.row -->
