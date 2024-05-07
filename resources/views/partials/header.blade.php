@@ -9,27 +9,53 @@
         <!-- .top -->
 
         <nav class="navbar navbar-expand-sm navbar-light d-flex">
+
             <div class="container">
+
                 <a class="navbar-brand" href="#">
                     <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
                 </a>
+
                 <ul class="list-unstyled d-flex">
-                    <li class="px-2">CHARATERS</li>
-                    <li class="px-2">COMICS</li>
-                    <li class="px-2">MOVIES</li>
-                    <li class="px-2">TV</li>
-                    <li class="px-2">GAMES</li>
-                    <li class="px-2">COLLECTIBLES</li>
-                    <li class="px-2">VIDEOS</li>
-                    <li class="px-2">FANS</li>
-                    <li class="px-2">NEWS</li>
-                    <li class="px-2">SHOP 🔽</li>
+                    <li class="px-2">
+                        <a href="">CHARATERS</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">COMICS</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">MOVIES</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">TV</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">GAMES</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">COLLECTIBLES</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">VIDEOS</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">FANS</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">NEWS</a>
+                    </li>
+                    <li class="px-2">
+                        <a href="">SHOP 🔽</a>
+                    </li>
                 </ul>
+
                 <span>
-                    Search 🔍
+                    <input type="text" name="search" id="search" placeholder="Search 🔍">                    
                 </span>
 
             </div>
+            <!-- .container -->
+
         </nav>
         <!-- .navbar -->
 
