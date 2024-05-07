@@ -2,9 +2,9 @@
 
     <div class="container">
 
-        <div class="top">
-            <h5>DC POWER™ VISA®</h5>
-            <h5>ADDITIONAL DC SITES 🔽</h5>
+        <div class="top d-flex justify-content-end">
+            <small>DC POWER™ VISA®</small>
+            <small>ADDITIONAL DC SITES 🔽</small>
         </div>
         <!-- .top -->
 
