@@ -18,10 +18,10 @@
 <body>
 
     @include('partials.header')
-    <main class="main">
+    <main class="site-main">
         @yield('content')
     </main>
-    <!-- /.main -->
+    <!-- /.site-main -->
     @include('partials.footer')
 
 </body>
