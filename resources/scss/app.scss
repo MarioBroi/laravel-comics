@@ -1,1 +1,32 @@
 @import '~bootstrap/scss/bootstrap';
+
+:root {
+    --comics-primary: #0282F9;
+    --comics-dark: #1C1C1C;
+    --comics-ligth: #ffffff;
+}
+
+.jumbo-container {
+    height: 400px;
+    background-image: url(../img/jumbotron.jpg);
+}
+
+.current-series {
+    background-color: var(--comics-primary);
+    margin: -2rem auto 2rem 0;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--comics-ligth);
+}
+
+.comics-display{
+    background-color: var(--comics-dark);
+}
+
+.load-more{
+    background-color: var(--comics-primary);
+    color: var(--comics-ligth);
+    padding: 0.5rem 1rem;
+    margin: 3rem auto 1rem;
+}

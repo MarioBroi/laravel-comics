@@ -3,16 +3,19 @@
 @section('content')
 
 <jumbotron class="jumbotron">
-    <div class="container">
-        JUMBO IMG
+    <div class="jumbo-container">
     </div>
-    <!-- .container -->
 </jumbotron>
 <!-- /.jumbotron -->
 
 <section class="comics-display">
+
     <div class="container d-flex justify-content-center flex-column">
-        CURRENT SERIES
+        <div class="current-series">
+            CURRENT SERIES
+        </div>
+
+
         <div class="row row row-cols-3 row-cols-md-6 g-4"> <!-- DA RENDERE DINAMICO -->
 
             <div class="col">
@@ -114,7 +117,7 @@
         </div>
         <!-- /.row -->
 
-        <button type="button" class="btn btn-primary m-auto">
+        <button type="button" class="load-more">
             LOAD MORE
         </button>
 
