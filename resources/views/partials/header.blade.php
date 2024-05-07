@@ -10,7 +10,9 @@
 
         <nav class="navbar navbar-expand-sm navbar-light d-flex">
             <div class="container">
-                <a class="navbar-brand" href="#">LOGO</a>
+                <a class="navbar-brand" href="#">
+                    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                </a>
                 <ul class="list-unstyled d-flex">
                     <li class="px-2">CHARATERS</li>
                     <li class="px-2">COMICS</li>
