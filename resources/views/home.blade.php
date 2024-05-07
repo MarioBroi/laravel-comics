@@ -18,6 +18,8 @@
 
         <div class="row row row-cols-3 row-cols-md-6 g-4"> <!-- DA RENDERE DINAMICO -->
 
+
+
             <div class="col">
                 <div class="card p-1">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem unde, consequuntur vel reprehenderit quae rem, ducimus in corporis fuga eius eveniet! Quae unde dignissimos rerum iste officia neque, adipisci id?
