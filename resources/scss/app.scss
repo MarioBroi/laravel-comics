@@ -20,13 +20,21 @@
     color: var(--comics-ligth);
 }
 
-.comics-display{
+.comics-display {
     background-color: var(--comics-dark);
 }
 
-.load-more{
+.load-more {
     background-color: var(--comics-primary);
     color: var(--comics-ligth);
     padding: 0.5rem 1rem;
     margin: 3rem auto 1rem;
+}
+
+.card-bg {
+    background-color: var(--comics-dark);
+}
+
+.thumb-size {
+    height: 250px;
 }

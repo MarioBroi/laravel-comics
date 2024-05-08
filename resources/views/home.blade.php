@@ -1,65 +1,60 @@
 @extends('layout.app')
 
 @section('content')
-
-<jumbotron class="jumbotron">
-    <div class="jumbo-container">
-    </div>
-</jumbotron>
-<!-- /.jumbotron -->
-
-<section class="comics-display">
-
-    <div class="container d-flex justify-content-center flex-column">
-        <div class="current-series">
-            CURRENT SERIES
+    <jumbotron class="jumbotron">
+        <div class="jumbo-container">
         </div>
+    </jumbotron>
+    <!-- /.jumbotron -->
 
+    <section class="comics-display">
 
-        <div class="row row row-cols-3 row-cols-md-6 g-4"> <!-- DA RENDERE DINAMICO -->
-
-            @foreach ($comics as $comic)
-
-            <div class="col">
-                <div class="card border-0">
-                    <img src="{{$comic['thumb']}}" alt="" class="card-img-top">
-                    <div class="cardbody bg-dark">
-                        <h5 class="p-1 text-light">
-                            {{$comic['title']}}
-                        </h5>
-                    </div>
-                </div>
-                <!-- /.card -->
+        <div class="container d-flex justify-content-center flex-column">
+            <div class="current-series">
+                CURRENT SERIES
             </div>
-            <!-- /.col -->
 
-            @endforeach
+
+            <div class="row row row-cols-3 row-cols-md-6 g-4"> <!-- DA RENDERE DINAMICO -->
+
+                @foreach ($comics as $comic)
+                    <div class="col">
+                        <div class="card border-0">
+                            <img src="{{ $comic['thumb'] }}" alt="" class="card-img-top thumb-size">
+                            <div class="cardbody card-bg">
+                                <h5 class="p-1 text-light">
+                                    {{ $comic['title'] }}
+                                </h5>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                @endforeach
+
+            </div>
+            <!-- /.row -->
+
+            <button type="button" class="load-more">
+                LOAD MORE
+            </button>
 
         </div>
-        <!-- /.row -->
+        <!-- /.container -->
+    </section>
+    <!-- /.comics-display -->
 
-        <button type="button" class="load-more">
-            LOAD MORE
-        </button>
-
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.comics-display -->
-
-<section class="shop">
-    <div class="container">
-        <ul class="list-unstyled d-flex justify-content-center">
-            <li>DIGITAL COMICS</li>
-            <li>DC MERCHANDISE</li>
-            <li>SUBSCRIPTION</li>
-            <li>COMIC SHOP LOCATOR</li>
-            <li>DC POWER VISA</li>
-        </ul>
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.shop -->
-
-
+    <section class="shop">
+        <div class="container">
+            <ul class="list-unstyled d-flex justify-content-center">
+                <li>DIGITAL COMICS</li>
+                <li>DC MERCHANDISE</li>
+                <li>SUBSCRIPTION</li>
+                <li>COMIC SHOP LOCATOR</li>
+                <li>DC POWER VISA</li>
+            </ul>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.shop -->
 @endsection
