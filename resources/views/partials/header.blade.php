@@ -1,12 +1,17 @@
-<header class="site-header">
+<header class="site-header bg-primary">
 
     <div class="container">
 
-        <div class="top d-flex justify-content-end">
+        <div class="top d-flex justify-content-end text-light">
             <small>DC POWER™ VISA®</small>
             <small>ADDITIONAL DC SITES 🔽</small>
         </div>
         <!-- .top -->
+
+    </div>
+    <!-- .container -->
+
+    <div class="bg-white">
 
         <nav class="navbar navbar-expand-sm navbar-light d-flex">
 
@@ -50,7 +55,7 @@
                 </ul>
 
                 <span>
-                    <input type="text" name="search" id="search" placeholder="Search 🔍">                    
+                    <input type="text" name="search" id="search" placeholder="Search 🔍">
                 </span>
 
             </div>
@@ -60,7 +65,7 @@
         <!-- .navbar -->
 
     </div>
-    <!-- /.container -->
+    <!-- /.bg-white -->
 
 </header>
 <!-- /.site-header -->
