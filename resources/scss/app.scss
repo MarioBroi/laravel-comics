@@ -38,3 +38,16 @@
 .thumb-size {
     height: 250px;
 }
+
+.img-container {
+    height: 50px;
+    background-color: var(--comics-primary);
+    position: relative;
+
+    img {
+        position: absolute;
+        bottom: 10px;
+        left: 300px;
+        width: 200px;
+    }
+}
