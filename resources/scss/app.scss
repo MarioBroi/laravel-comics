@@ -139,6 +139,7 @@
 
     ul {
         list-style: none;
+        padding: 0;
     }
 
     li {
@@ -166,14 +167,38 @@
 
     .info-left,
     .info-right {
-        width: 450px;
+        width: 100%;
+    }
+
+    .info-right {
+        margin-left: 1rem;
     }
 
     .info-top {
         border: none;
     }
 
+    .bottom-info {
+        margin-top: 2rem;
+        border-top: 1px solid lightgrey;
 
+        .bottom-info-container {
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-clickables {
+            border-left: 1px solid lightgrey;
+            padding: 0.5rem 0.5rem 2rem;
+            flex-grow: 1;
+        }
+
+        .info-clickables:last-child {
+            border-right: 1px solid lightgrey;
+        }
+    }
 }
 
 .site-footer {

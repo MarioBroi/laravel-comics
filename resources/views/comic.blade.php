@@ -114,6 +114,24 @@
             <!-- /.info-right -->
         </div>
         <!-- /.info-container -->
+        <div class="bottom-info">
+            <div class="bottom-info-container">
+                <div class="info-clickables">
+                    DIGITAL COMICS
+                </div>
+                <div class="info-clickables">
+                    SHOP DC
+                </div>
+                <div class="info-clickables">
+                    COMIC SHOP LOCATOR
+                </div>
+                <div class="info-clickables">
+                    SUBSCRIPTIONS
+                </div>
+            </div>
+            <!-- /.info-container -->
+        </div>
+        <!-- /.bottom-info -->
     </div>
     <!-- /.info -->
 @endsection
