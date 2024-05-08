@@ -122,6 +122,60 @@
     }
 }
 
+.info {
+    background-color: #f6f6f6;
+    border-top: 1px solid lightgrey;
+
+    .info-container {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    h4 {
+        color: var(--comics-dark-text);
+        padding: 2rem 0;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid lightgrey;
+    }
+
+    li:last-child {
+        border-bottom: 1px solid lightgrey;
+    }
+
+    h6 {
+        width: 200px;
+        padding: 0.5rem 0;
+        color: var(--comics-dark-text);
+    }
+
+    p {
+        color: var(--comics-primary);
+        font-size: 12px;
+        padding: 0.5rem 0;
+        margin: 0;
+    }
+
+    .info-left,
+    .info-right {
+        width: 450px;
+    }
+
+    .info-top {
+        border: none;
+    }
+
+
+}
+
 .site-footer {
     background-image: url(../img/footer-bg.jpg);
     padding: 2rem 0;
