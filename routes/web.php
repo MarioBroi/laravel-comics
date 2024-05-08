@@ -17,14 +17,14 @@ Route::get('/', function () {
 
     $comics = config('comics.comics');
     //dd($comics);
-    
+
     return view('home', compact('comics'));
 })->name('home');
 
 Route::get('/comics/{id}', function ($id) {
 
+    abort_unless($id >= 0 && $id < count(config('comics.comics')), 404);
     $comic = config('comics.comics')[$id];
-    //dd($comic);
 
     return view('comic', compact('comic'));
-})->name('comics');
+})->name('comic');
