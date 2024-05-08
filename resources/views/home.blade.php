@@ -15,7 +15,7 @@
             </div>
 
 
-            <div class="row row row-cols-3 row-cols-md-6 g-4"> <!-- DA RENDERE DINAMICO -->
+            <div class="row row row-cols-3 row-cols-md-6 g-4">
 
                 @foreach ($comics as $comic)
                     <div class="col">
